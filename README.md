@@ -104,8 +104,7 @@ Content-Type: application/json
 
 O `config-server` busca arquivos de configuração de um repositório Git (ainda precisa ser criado por você), como:
 
-```
-https://github.com/seu-usuario/microservicos-config-repo
+
 ```
 
 ---
