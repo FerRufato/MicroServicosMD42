@@ -4,7 +4,7 @@ Este projeto demonstra a criação de dois microserviços utilizando o ecossiste
 
 ---
 
-## 🏗 Estrutura do Projeto
+##  Estrutura do Projeto
 
 ```
 microservicos-projeto-unico/
