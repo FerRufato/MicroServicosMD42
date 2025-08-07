@@ -1,10 +1,10 @@
-# 🧩 Projeto: Microserviços com Spring Boot – Cliente e Produto
+#  Projeto: Microserviços com Spring Boot – Cliente e Produto
 
 Este projeto demonstra a criação de dois microserviços utilizando o ecossistema Spring Boot. Os serviços são responsáveis por gerenciar dados de **clientes** e **produtos**, com funcionalidades de **cadastro**, **edição** e **pesquisa**, além de comunicação entre si por meio do **OpenFeign**. As configurações são centralizadas em um **Config Server**.
 
 ---
 
-## 🏗️ Estrutura do Projeto
+## 🏗 Estrutura do Projeto
 
 ```
 microservicos-projeto-unico/
@@ -15,15 +15,15 @@ microservicos-projeto-unico/
 
 ---
 
-## 🧪 Funcionalidades
+##  Funcionalidades
 
-### 📦 Cliente Service
+###  Cliente Service
 - Cadastrar cliente (`POST /clientes`)
 - Editar cliente (`PUT /clientes/{id}`)
 - Listar todos os clientes (`GET /clientes`)
 - Buscar cliente por ID (`GET /clientes/{id}`)
 
-### 📦 Produto Service
+###  Produto Service
 - Cadastrar produto (`POST /produtos`)
 - Editar produto (`PUT /produtos/{id}`)
 - Listar todos os produtos (`GET /produtos`)
@@ -31,7 +31,7 @@ microservicos-projeto-unico/
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 | Tecnologia                | Uso                                               |
 |--------------------------|---------------------------------------------------|
@@ -46,7 +46,7 @@ microservicos-projeto-unico/
 
 ---
 
-## 🗄️ Pré-requisitos
+##  Pré-requisitos
 
 - Java 17+
 - Maven
@@ -55,7 +55,7 @@ microservicos-projeto-unico/
 
 ---
 
-## 🔧 Como Executar
+##  Como Executar
 
 1. **Clone o repositório:**
 
@@ -83,7 +83,7 @@ cd produto-service
 
 ---
 
-## 🧪 Teste com Postman
+##  Teste com Postman
 
 Você pode testar os endpoints com o Postman ou qualquer outro cliente HTTP:
 
@@ -100,7 +100,7 @@ Content-Type: application/json
 
 ---
 
-## 🌐 Configuração Centralizada
+##  Configuração Centralizada
 
 O `config-server` busca arquivos de configuração de um repositório Git (ainda precisa ser criado por você), como:
 
@@ -109,13 +109,13 @@ O `config-server` busca arquivos de configuração de um repositório Git (ainda
 
 ---
 
-## 👨‍💻 Autor
+##  Autor
 
 Desenvolvido por **Fernanda Rufato**  
 [GitHub](https://github.com/FerRufato) | [LinkedIn](https://www.linkedin.com/in/fernanda-rufato)
 
 ---
 
-## 📄 Licença
+##  Licença
 
 Este projeto está licenciado sob a licença MIT.
